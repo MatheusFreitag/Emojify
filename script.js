@@ -121,7 +121,7 @@ function convertToEmoji(list){
 
   for (var i = 0; i < aux.length; i++) {
     if (aux[i] === " ") {
-      string = string + "▫️" + aux[i];
+      string = string + "  " + aux[i];
     }
     else{
       string = string+aux[i];

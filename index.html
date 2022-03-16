@@ -2,30 +2,29 @@
 <html>
   <head>
     <script src="vue.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8">
     <title>Emojify</title>
   </head>
   <body>
 
-  <div class="container">
-    <h1>Emojify!😄</h1>
-    <h2> Turn your text into emojis!</h2>
+    <div class="container">
+      <h1>Emojify! 😄</h1>
+      <h2> Turn your text into emojis!</h2>
 
-    <div id="app">
-      <textarea cols="50" rows="4" v-model="message" type="text" placeholder="Type here"></textarea>
-      <br>
-      <p class="result">{{ message | emojify }}</p>
+      <div id="app">
+        <textarea rows="4" v-model="message" type="text" placeholder="Type here"></textarea>
+        <br>
+        <p class="result">{{ message | emojify }}</p>
+      </div>
     </div>
-  </div>
 
-  <footer>
-    <p>Emojify is made with ❤️ , ☕️_and VueJS by <a target="_blank" href="http://matheusfreitag.github.io/">Matheus Freitag</a></p>
-    <br>
-    <p>The background was inspired by <a target="_blank" href="http://twitter.com/PGradients">@PGradients</a> - you should take a look!</p>
-  </footer>
+    <footer>
+      <p>Emojify is made with ❤️ , ☕️  and VueJS by <a target="_blank" href="http://matheusfreitag.github.io/">Matheus Freitag</a></p>
+      <p>The background was inspired by <a target="_blank" href="http://twitter.com/PGradients">@PGradients</a> - you should take a look!</p>
+    </footer>
 
 
     <script src="script.js" type="text/javascript"> </script>
