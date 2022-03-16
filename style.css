@@ -62,16 +62,8 @@ footer a:hover{
 }
 
 @media (min-width: 1024px) {
-  textarea {
+  #app {
     width: 60%;
-    max-width: 2000px;
-    margin: 0px 20%;
-  }
-
-  .result{
-    text-align: center;
-    width: 65%;
-    margin: 20px 17.555%;
   }
 
 
